@@ -88,7 +88,7 @@ public class Main {
 
             if (p.isShippable()) {
                 itemsToShip.add(p);
-                shippingFee += p.getWeight() * 2;
+                shippingFee += quantities.get(i) * p.getWeight() * 2;
             }
         }
 
